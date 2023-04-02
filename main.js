@@ -45,6 +45,8 @@ function generateImg(){
         saveImg()
     })
     
+
+    
     window.addEventListener('load', function(){
         loadImg
     })

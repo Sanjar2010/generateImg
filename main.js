@@ -39,7 +39,6 @@ function generateImg(){
         } 
     }
 
-
     
     document.getElementById('new-img').addEventListener('click', function() {
         generateImg()

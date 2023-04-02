@@ -1,8 +1,4 @@
 function generateImg(){
-
-
-
-
     const images = [ 
     innerHTML= '<img src="./image/Без названия (2).jpeg" alt="">',
     innerHTML= '<img src="./image/Без названия (3).jpeg" alt="">',

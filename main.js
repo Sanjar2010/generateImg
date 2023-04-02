@@ -1,4 +1,6 @@
 function generateImg(){
+   
+   
     const images = [ 
     innerHTML= '<img src="./image/Без названия (2).jpeg" alt="">',
     innerHTML= '<img src="./image/Без названия (3).jpeg" alt="">',
@@ -11,8 +13,6 @@ function generateImg(){
     innerHTML= '<img src="./image/Без названия (10).jpeg" alt="">',
     innerHTML= '<img src="./image/Без названия (11).jpeg" alt="">',
 ]
-
-    
     
     
     const randomIndex = Math.floor(Math.random() * images.length)

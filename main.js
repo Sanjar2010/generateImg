@@ -21,12 +21,13 @@ function generateImg(){
     document.getElementById('img').innerHTML = img
     
 
-
     function saveImg(){
         const img = document.getElementById('img').innerHTML
         localStorage.setItem('img', img)
     }
     }
+    
+
     
     function loadImg() {
         const img = localStorage.getItem('img')

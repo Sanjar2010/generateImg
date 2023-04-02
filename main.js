@@ -14,13 +14,12 @@ function generateImg(){
     innerHTML= '<img src="./image/Без названия (11).jpeg" alt="">',
 ]
     
+
     
     const randomIndex = Math.floor(Math.random() * images.length)
     const img = images[randomIndex]
     document.getElementById('img').innerHTML = img
     
-
-
 
 
     function saveImg(){

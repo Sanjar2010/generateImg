@@ -28,7 +28,8 @@ function generateImg(){
     }
     
 
-    
+
+
     function loadImg() {
         const img = localStorage.getItem('img')
         if (img) {
@@ -37,6 +38,8 @@ function generateImg(){
             generateImg()
         } 
     }
+
+
     
     document.getElementById('new-img').addEventListener('click', function() {
         generateImg()
